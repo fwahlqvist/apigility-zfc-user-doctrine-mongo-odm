@@ -1,0 +1,35 @@
+{
+    "name": "fwahlqvist/apigility-zfc-user-doctrine-mongo-odm",
+    "description": "Apiglity and Doctrine2 Mongo storage adapter for ZfcUser.",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "keywords": [
+        "zf2"
+    ],
+    "homepage": "https://github.com/fwahlqvist/apigility-zfc-user-doctrine-mongo-odm",
+    "authors": [
+        {
+            "name": "Fredrik Wahlqvist",
+            "email": "fwahlqvist@gmail.com",
+            "homepage": "http://wahlqvist.co.uk/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zf-commons/zfc-user": "0.*",
+        "doctrine/doctrine-mongo-odm-module": "0.8.*"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    },
+    "autoload": {
+        "psr-0": {
+            "ApigilityZfcUserDoctrineMongoODM": "src/"
+        },
+        "classmap": [
+            "./"
+        ]
+    }
+}
